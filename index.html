@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login Page</title>
+  <title>Car Rental Login</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff8c00, #d35400);
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -18,8 +18,8 @@
       background: #fff;
       padding: 40px;
       border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      width: 300px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      width: 320px;
       text-align: center;
       transition: transform 0.3s ease;
     }
@@ -30,7 +30,7 @@
 
     h2 {
       margin-bottom: 20px;
-      color: #333;
+      color: #d35400;
     }
 
     .input-field {
@@ -43,8 +43,8 @@
     }
 
     .input-field:focus {
-      border-color: #74ebd5;
-      box-shadow: 0 0 8px rgba(116, 235, 213, 0.6);
+      border-color: #ff8c00;
+      box-shadow: 0 0 8px rgba(255, 140, 0, 0.6);
       outline: none;
     }
 
@@ -52,7 +52,7 @@
       width: 100%;
       padding: 12px;
       margin-top: 15px;
-      background: #74ebd5;
+      background: #d35400;
       border: none;
       border-radius: 8px;
       color: #fff;
@@ -62,26 +62,26 @@
     }
 
     .btn:hover {
-      background: #4bb3a7;
+      background: #a84300;
       transform: translateY(-2px);
     }
 
     .link {
       display: block;
       margin-top: 15px;
-      color: #4bb3a7;
+      color: #d35400;
       text-decoration: none;
       transition: color 0.3s;
     }
 
     .link:hover {
-      color: #2e7d75;
+      color: #ff8c00;
     }
   </style>
 </head>
 <body>
   <div class="login-container">
-    <h2>Login</h2>
+    <h2>Car Rental Login</h2>
     <form>
       <input type="text" class="input-field" placeholder="Username" required>
       <input type="password" class="input-field" placeholder="Password" required>
